@@ -1,4 +1,6 @@
 from flask import Flask, jsonify
+from pandas import DataFrame, Series
+
 app = Flask(__name__)
 
 persons = [dict(name='Mauricio Macri', doc='112233', country='Argentina'),
